@@ -8,15 +8,9 @@ function App() {
   let [text, setText] = useState(null);
   let [t, setT] = useState(null);
   let [icon, setIcon] = useState("RAIN");
-  let [week , setWeek] = useState(null);
-  let [lat , setLat] = useState(null);
-  let [lon , setLon] = useState(null);
   function showT(response) {
     setT(response.data);
     setIcon(response.data.weather[0].main);
-    console.log(response.data,lat,lon);
-    console.log("----------------------------")
-    console.log( capitalizeAllLetters(icon))
   }
   function capitalizeAllLetters(string) {
     return string.toUpperCase();
@@ -43,7 +37,7 @@ function App() {
     <div className="App">
       <div className="whole">
         <div className="header">
-            <img src="https://www.weather.shecodes.io/images/logo.png" width="150px"/><br/><br/>
+            <img src="https://www.weather.shecodes.io/images/logo.png" width="150px" alt=''/><br/><br/>
             <form onSubmit={handle} className="form">
                 <div className="input">
                     <input type="text" name="city" id="city" placeholder="Enter a city.." onChange={updateT}/>
@@ -99,7 +93,7 @@ function App() {
             </div>
         </div>
         <div>
-            <p className="footer">This project was coded by <a href="#">SheCodes</a> and is <a href="#">open-sourced on GitHub</a> and <a href="#">hosted on Netlify</a></p>
+            <p className="footer">This project was coded by <a href="https://github.com/helinatefera/react_axios_HM4">Helina Tefera</a> and is <a href="https://github.com/helinatefera/react_axios_HM4">open-sourced on GitHub</a> and <a href="https://github.com/helinatefera/react_axios_HM4">hosted on Netlify</a></p>
         </div>
     </div>
     </div>
