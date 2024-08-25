@@ -90,7 +90,7 @@ function App() {
           {/* Render the list of days here */}
         </div>
         <div>
-          <p className="footer">This project was coded by <a href="https://github.com/helinatefera/react_axios_HM4">Helina Tefera</a> and is <a href="https://github.com/helinatefera/react_axios_HM4">open-sourced on GitHub</a> and <a href="https://github.com/helinatefera/react_axios_HM4">hosted on Netlify</a></p>
+          <p className="footer">This project was coded by <a href="https://github.com/helinatefera/react_axios_HM4">Helina Tefera</a> and is <a href="https://main--gleeful-wisp-7bad2f.netlify.app/">hosted on Netlify</a></p>
         </div>
       </div>
     </div>
