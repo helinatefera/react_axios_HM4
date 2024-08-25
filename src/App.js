@@ -87,7 +87,31 @@ function App() {
         </div>
 
         <div className="lists">
-          {/* Render the list of days here */}
+            <div className="list">
+                <p className="day">Sat</p>
+                <h1>🌤️</h1>
+                <p className="p">12°<span>7°</span></p>
+            </div>
+            <div className="list">
+                <p className="day">Sun</p>
+                <h1>🌥️</h1>
+                <p className="p">12°<span>7°</span></p>
+            </div>
+            <div className="list">
+                <p className="day">Mon</p>
+                <h1>☀️</h1>
+                <p className="p">12°<span>7°</span></p>
+            </div>
+            <div className="list">
+                <p className="day">Tue</p>
+                <h1>🌥️</h1>
+                <p className="p">12°<span>7°</span></p>
+            </div>
+            <div className="list">
+                <p className="day">Wen</p>
+                <h1>☀️</h1>
+                <p className="p">12°<span>7°</span></p>
+            </div>
         </div>
         <div>
           <p className="footer">This project was coded by <a href="https://github.com/helinatefera/react_axios_HM4">Helina Tefera</a> and is <a href="https://main--gleeful-wisp-7bad2f.netlify.app/">hosted on Netlify</a></p>
