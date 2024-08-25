@@ -12,16 +12,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-body{
+html, body {
+  height: 100%;
+  margin: 0;
   background-color: #F9F7FE;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
-.whole{
+.whole {
   border-radius: 12px;
-  margin: 100px auto;
+  margin: 100px auto; /* Vertical and horizontal centering */
   padding: 20px;
   background-color: #FFFFFF;
-  margin: 10 auto;
   border: solid 1px rgba(0, 0, 0, 12%);
   width: 45%;
   box-shadow: 0 30px 50px #41326414;
@@ -55,11 +56,12 @@ body{
 img{
   margin: 10px auto;
 }
-.middel{
+.middel {
   display: flex;
   flex-direction: row;
   padding-top: 40px;
-  justify-content: space-between;
+  justify-content: space-between; /* Adjust this based on your needs */
+  align-items: center; /* This will vertically align items */
 }
 .dis{
   font-family: "Poppins", sans-serif;
@@ -133,6 +135,7 @@ a{
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
